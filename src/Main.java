@@ -12,7 +12,6 @@ public class Main {
         System.out.printf("На 24 месяца:" + "%.0f", monthlyPayment);
         period1 = 36;
         monthlyPayment = service.annuity(sum1, ratio1, period1);
-        System.out.println();
         System.out.printf("На 36 месяцев:" + "%.0f", monthlyPayment);
     }
 }
